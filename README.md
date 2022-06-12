@@ -129,7 +129,7 @@ p3 <- df %>%
   dplyr::mutate(total=cumsum(n)) %>%
   ggplot(aes(x=day, y=total)) +
   geom_point(size=0.3) +
-  labs(x="", y="", color="", subtitle="by sales") +
+  labs(x="", y="", color="", subtitle="by sales", caption="data from Zora API") +
   theme(
     text=element_text(size=12,  family="Andale Mono"),
     panel.background=element_blank(),
@@ -148,8 +148,7 @@ ggpubr::ggarrange(
   nrow=3, 
   align="v", 
   heights=c(0.6, 0.2 ,0.2),
-  common.legend=F) +
-  labs(caption="data from Zora API")
+  common.legend=F)
 ```
 
 ![](README_files/figure-gfm/unnamed-chunk-3-1.png)<!-- -->
