@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Mono:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&display=swap");
+
+html {
+  background: #000000;
+}
+
+body {
+  margin: 0;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+
+code {
+  font-family: "Red Hat Mono", monospace;
+  background: rgba(255, 255, 255, 0.09);
+  padding: 4px;
+  border-radius: 5px;
+}
+
+img {
+  width: 100px;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+table {
+  margin-top: 50px;
+  border-spacing: 0px;
+  width: 100%;
+  border-collapse: collapse;
+  white-space: nowrap;
+}
+
+th, td {
+  padding: 1px 10px 1px 10px;
+}
+
+th {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+td {
+  border-top: solid rgba(255, 255, 255, 0.09) 1px;
+  border-bottom: solid rgba(255, 255, 255, 0.09) 1px;
+  height: 75px;
+}
+
+tr {
+  background-color: rgba(255, 255, 255, 0.050);
+}
+
+tr:nth-child(odd){
+  background-color: rgba(255, 255, 255, 0.025);
+}
+
+.app {
+  font-family: "Red Hat Mono", monospace;
+  text-align: center;
+  font-weight: 500;
+  font-size: 15px;
+  color: #EDDBBB;
+}
+
+.console {
+  padding-left: 50px;
+  padding-top: 20px;
+  border: 1px solid #ADF70C;
+  margin-left: 50px;
+  margin-top: 30px;
+  text-align: left;
+}
+
+.highlight {
+  color: #ADF70C;
+}
+
+.banner {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+}
+
+.header {
+  font-family: "Press Start 2P", cursive;
+  font-size: 75px;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.subheader {
+  font-family: "Audiowide", cursive;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.stats {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+
+.stats-key {
+  font-size: 20px;
+}
+
+.stats-val {
+  font-family: "Audiowide", cursive;
+  font-size: 35px;
+  color: #ADF70C
+}

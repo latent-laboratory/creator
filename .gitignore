@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+.DS_Store
+data/data.csv
+node_modules/
+package-lock.json
+README.Rmd
