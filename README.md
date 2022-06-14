@@ -83,7 +83,7 @@ minted.get_search(text="XCOPY", contracts=CONTRACTS)
 The Zora API is **powerful**. While the demo includes a small sample of
 XCOPY’s work, more NFTs could be tracked. The historical queries
 presented were tested for up to 10,000 tokens at a time. After that,
-there is some latency between calls, some may fail likely to due too
+there is some latency between calls, some may fail likely due to too
 much data. An alternative approach could be to split up queries into
 small token batches. This probably will not be a problem for most
 creators.
